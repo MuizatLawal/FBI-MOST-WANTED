@@ -1,0 +1,305 @@
+body{
+  height: 200px;
+  margin: 0;
+}
+
+.container{
+  background-color: #ca3a30;
+  display: flex;
+}
+
+.image{
+  display: inline-block;
+}
+
+.Title-Text{
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  display: inline-block;
+  width: 340px;
+}
+
+.name{
+  color: #ca3a30;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 100px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.crime{
+  color: #ca3a30;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.criminal-picture{
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.year-of-photograph{
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(96, 96, 96);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.description{
+  color: #ca3a30;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.aliases{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(209, 208, 199);
+}
+
+.ali{
+  color: black;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.aliases-names{
+  color: rgb(96, 96, 96);
+  font-size: small;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.container-3 {
+  flex: 1;
+}
+
+.container-4 {
+  flex: 1;
+}
+
+.container-5{
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 425px) {
+  div.bottom-container {
+    display: none;
+  }
+}
+
+.date-of-birth{
+  background-color: bisque;
+}
+
+.dob{
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.dates{
+  color: rgb(96, 96, 96);
+  font-family: arial;
+  font-size: small;
+}
+
+.color{
+  color: rgb(96, 96, 96);
+  font-family: arial;
+  font-size: small;
+}
+
+.air{
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.hair{
+  background-color: rgb(209, 208, 199);
+}
+
+.sex{
+  background-color: bisque;
+}
+
+.xes{
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.gender{
+  color: rgb(96, 96, 96);
+  font-family: arial;
+  font-size: small;
+}
+
+
+.Nationality{
+  background-color: rgb(209, 208, 199);
+}
+
+.nation{
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+}
+
+
+.country{
+  color: rgb(96, 96, 96);
+  font-family: arial;
+  font-size: small;
+}
+
+.pob{
+  background-color: bisque;
+}
+
+.bop{
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.country{
+  color: rgb(96, 96, 96);
+  font-family: arial;
+  font-size: small;
+}
+
+
+.eyes{
+  background-color: rgb(209, 208, 199);
+}
+
+.eye{
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+}
+
+
+.color{
+  color: rgb(165, 129, 28);
+  font-family: arial;
+  font-size: small;
+}
+
+.race{
+  background-color: bisque;
+} 
+
+.ace{
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.color{
+  color: rgb(96, 96, 96);
+  font-family: arial;
+  font-size: small;
+}
+
+.ncic{
+  background-color: rgb(209, 208, 199);
+}
+
+.cic{
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+} 
+
+.number{
+  color: rgb(96, 96, 96);
+  font-family: arial;
+  font-size: small;
+}
+
+.remark {
+  color: #ca3a30;
+  font-weight: bold;
+  font-family: arial;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.location {
+  color: rgb(96, 96, 96);
+  font-family: arial;
+  font-weight: bold;
+  font-size: small;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.caution{
+  color: #ca3a30;
+  font-weight: bold;
+  font-family: arial;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.caution-note {
+  color: rgb(96, 96, 96);
+  font-family: arial;
+  font-weight: bold;
+  font-size: small;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.risky {
+  color: #ca3a30;
+  font-weight: bold;
+  font-family: arial;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.risk-note {
+  color: rgb(0, 0, 0);
+  font-family: arial;
+  font-weight: 900;
+  font-size: small;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.field {
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.office {
+  color: rgb(96, 96, 96);
+  font-family: arial;
+  font-size: small;
+}
+
+.attribution {
+  font-size: 12px;
+  margin: 20PX 0 0 0;
+}
